@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lavanya Kammela</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <div class="logo"><span>Lavanya</span></div>
+                <ul id="sidemenu">
+                  <i class="fa-solid fa-xmark" onclick="closemenu()" id="close-icon"></i>
+                    <li class="l1"><a href="#header"><strong class="heading">Home</strong></a></li>
+                    <li class="l2"><a href="#about"><strong class="heading">About</strong></a></li>
+                    <li class="l3"><a href="#services"><strong class="heading">Services</strong></a></li>
+                    <li class="l4"><a href="#projects"><strong class="heading">Projects</strong></a></li>
+                    <li class="l5 contact-btn"><a href="#contact"><strong class="heading">Contact</strong></a></li>
+                    
+                </ul>
+              
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+             <div class="main-container">
+                    <div class="image-container">
+                        <img src="lavanyak.jpg" alt="lavanya" class="animated-img">
+                    </div>
+                    <div class="content">
+                        <h1>Hey I'm <span>Lavanya</span></h1>
+                        <div class="typewriter">I'm a <span></span></div>
+                        <p>Web Developer and website designer ,frontend designer, and many more...</p>
+                        
+                        <div class="social-links">
+                            <a href="https://github.com/lavanyakammela"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://www.facebook.com/share/1GLZFWws4G/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="http://linkedin.com/in/lavanya-kammela"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/lucky_728_728?igsh=aXI3Y2QxYXB1Y2I4"><i class="fa-brands fa-square-instagram"></i></i></a>
+                        </div>
+                        <div class="btn">
+                           <a href="Lavanya resume.pdf"><button>Download CV</button></a> 
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+              <!--  ------  About -----    -->
+
+   <div id="about">
+  <section class="about section">
+    <div class="about-box">
+      <div class="about-content">
+        <div class="about-img">
+          <img src="lavanya1.jpg" alt="Lavanya">
+        </div>
+        <div class="about-text">
+          <h1>About Me</h1>
+          <p>
+            Welcome to my portfolio! I’m Lavanya, a passionate software developer with a keen interest in programming, web development, and full stack solutions. My journey in technology has been driven by a fascination with solving complex problems and creating impactful digital experiences. I’m always eager to dive into new challenges.
+          </p>
+
+          <div class="tabs">
+            <button class="tab-link active" onclick="openTab(event, 'skills')">Skills</button>
+            <button class="tab-link" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-link" onclick="openTab(event, 'education')">Education</button>
+          </div>
+
+          <div class="tab-content active" id="skills">
+            <ul>
+              <li><strong class="header-text">Web Development:</strong> Designing Web/App Applications.</li>
+              <li><strong class="header-text">Full Stack Development:</strong> Developing Web/App Applications.</li>
+              <li><strong class="header-text">Java with DSA:</strong> Building logics with JAVA.</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="experience">
+            <ul>
+              <li><strong class="header-text">Fresher:</strong> I’m a fresher, but I’ve gained experience through projects and internships.</li>
+            </ul>
+          </div>
+          <div class="tab-content" id="education">
+            <ul>
+              <li><strong class="header-text">2022-2026:</strong> B.Tech in Information Technology at DIET College.</li>
+              <li><strong class="header-text">2020-2022:</strong> Intermediate - NRI Juniour College - Tenali.</li>
+              <li><strong class="header-text">2019-2020:</strong> School - Sri Chaitanya Vidya Vihar - Kolluru.</li>
+            </ul> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+        <!-- Services Section -->
+         <div id="services">
+ <section class="section services">
+    <h2 class="header-text"><strong>My Services</strong></h2>
+    <div class="card-container">
+      <div class="card">
+        <h3 class="head"><strong><i class="fa-solid fa-laptop-code"></i>  Web Development</strong></h3>
+        <p class="text">
+I provide end-to-end web development services to bring your ideas to life with modern, responsive, and user-friendly websites. Whether it’s a personal portfolio, business website, or a dynamic web application, I craft scalable solutions that combine performance, aesthetics, and intuitive design.
+
+My web development process covers everything from planning and design to front-end and back-end implementation. I specialize in HTML, CSS, JavaScript, and frameworks like React and Node.js, ensuring seamless functionality across all devices.</p>
+      </div>
+      <div class="card">
+        <h3 class="head"><strong><i class="fa-solid fa-file-code"></i>  Full Stack Development</strong></h3>
+        <p class="text">My journey into full stack development began with a curiosity for how websites work behind the scenes. I discovered JavaScript and modern frameworks like React and Angular, which allowed me to build dynamic, interactive user experiences.
+
+Driven by the desire to create complete web applications, I moved into back-end development, mastering tools like Node.js, Express, Django, and Spring Boot. I learned to design databases with MySQL, PostgreSQL, and MongoDB, enabling me to handle data securely and efficiently.</p>
+      </div>
+      <div class="card">
+        <h3 class="head"><strong><i class="fa-solid fa-code-merge"></i>  Java + Python</strong></h3>
+        <p class="text">I am deeply passionate about coding in both Java and Python. I love how Java’s strong structure and performance make it ideal for building powerful, scalable applications, while Python’s simplicity and versatility allow me to create solutions quickly and efficiently.
+
+Working with these two languages inspires me to develop clean, maintainable code and innovative features that solve real-world problems. Whether it’s designing complex back-end systems with Java or automating tasks and building intelligent applications with Python, I enjoy every part of the process.</p>
+      </div>
+    </div>
+  </section>
+  </div>
+
+<!-- Projects Section -->
+ <div id="projects">
+  <section class="section blogs">
+    <h2><strong>Projects</strong></h2>
+    <div class="card-container">
+      <div class="card">
+        <h3 class="head">&#127758;Online Travel Guide Using AI</h3>
+        <p class="text">The Online Travel Guide is an intelligent web application designed to assist travelers in discovering personalized destinations, attractions, and itineraries using artificial intelligence. The platform analyzes user preferences and travel history to provide curated recommendations, enhancing the overall travel planning experience.Used Angular and React for a responsive interface, JavaScript and JSON for real-time data updates, and MongoDB to store travel and user data. </p>
+      </div>
+      <div class="card">
+        <h3  class="head"> &#128555;Human Stress Level Detection Using AI/ML</h3>
+        <p class="text">Developed a machine learning model to detect human stress levels based on physiological and behavioral data. Used AI/ML techniques and tools to classify stress into categories such as low, medium, and high. The project involved data preprocessing, feature extraction, and training classifiers to achieve accurate predictions.Tools & Technologies we used are Python (scikit-learn, pandas, matplotlib),AI/ML algorithms (SVM, Random Forest, KNN),Data analysis and visualization tools</p>
+      </div>
+      <div class="card">
+   <h3  class="head">&#x1F963;Food Court</h3>
+        <p class="text">This project is a comprehensive website designed to provide detailed information about a food court, including food timings, contact details, and a dynamic menu showcasing the available food items. The website serves as a digital information hub for visitors, helping them easily find what they need about the food court’s offerings.Food Timings: Clearly displays opening and closing hours for breakfast, lunch, and dinner, helping visitors plan their meals.Contact Details: Includes phone numbers, email addresses, and location information to make it easy for customers to get in touch or find directions.Food Items & Details: Lists all available food items with names, images, and detailed descriptions.</p>
+      </div>
+    </div>
+  </section>
+  </div>
+
+  <!-- Contact Section -->
+   <div id="contact">
+<section class="section contact">
+  <h2><strong>Contact Me</strong></h2>
+
+  <div class="contact-details">
+    <p><strong class="head-text"><i class="fa-solid fa-phone-volume"> </i>Phone:</strong> </i>7207468183</p>
+    <p><strong class="head-text"><i class="fa-solid fa-paper-plane"> </i>Email:</strong></i> lavanyakammela0711@gmail.com</p>
+  </div>
+
+  <div class="contact-box">
+  <form action="https://httpbin.org/get" method="get" class="contact__form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+</div>
+
+<footer class="footer">
+  <p>Copyrights &copy; 2025 Lavanya. All rights reserved.</p>
+</footer>
+
+
+<script>
+function openTab(evt, tabName) {
+  const tabLinks = document.getElementsByClassName("tab-link");
+  const tabContents = document.getElementsByClassName("tab-content");
+
+  for (let link of tabLinks) link.classList.remove("active");
+  for (let content of tabContents) content.classList.remove("active");
+
+  evt.currentTarget.classList.add("active");
+  document.getElementById(tabName).classList.add("active");
+}
+</script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwSSqUos9IN9tmqwyIUcLFmvikNP1lYzXieihIfwIn8xBq_qC511Cbj84D-_GMWUf70iA/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },6000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script>
+
+        var sidemenu=document.getElementById("sidemenu");
+
+         function openmenu()
+        {
+            sidemenu.style.left="250px";
+        }
+
+        function closemenu()
+        {
+            sidemenu.style.left="470px";
+        }
+
+    </script>
+
+</body>
+</html>
